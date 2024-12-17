@@ -27,7 +27,7 @@ function Hero() {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8 ">
                 <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="flex justify-center ">
-                    <motion.img initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} src={profilePic} alt="Sugrish" className="rounded-full"/>
+                    <motion.img initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} src={profilePic} alt="Thiru Vishagan" className="rounded-full"/>
                 </motion.div>
             </div>
         </div>
