@@ -30,10 +30,10 @@ export const PROJECTS = [
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js","Next.js"],
   },
   {
-    title: "Crop Prediction",
+    title: "Farm Networks",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "Cultivating the future with data-driven insights to predict crop yields and optimize farming practices.",
     technologies: ["Keras", "Sci-Kit Learn", "Matplotlib", "ML Algorithms"],
   },
   {
