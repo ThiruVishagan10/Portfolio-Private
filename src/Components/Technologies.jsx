@@ -2,8 +2,8 @@ import { RiReactjsLine } from "react-icons/ri"
 import { SiExpress } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
 import { SiNodedotjs } from "react-icons/si";
-import { SiTensorflow } from "react-icons/si";
-import { SiKeras } from "react-icons/si";
+// import { SiTensorflow } from "react-icons/si";
+// import { SiKeras } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -39,12 +39,6 @@ function Technologies() {
             </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className="rounded-2xl border-2 border-neutral-800 p-4">
                 <SiNodedotjs className="text-7xl text-green-500 " />
-            </motion.div>
-            <motion.div variants={iconVariants(4.5)} initial="initial" animate="animate" className="rounded-2xl border-2 border-neutral-800 p-4">
-                <SiKeras className="text-7xl text-red-500" />
-            </motion.div>
-            <motion.div variants={iconVariants(5)} initial="initial" animate="animate" className="rounded-2xl border-2 border-neutral-800 p-4">
-                <SiTensorflow className="text-7xl text-orange-500" />
             </motion.div>
         </div>
     </div>

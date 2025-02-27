@@ -1,4 +1,4 @@
-import aboutPic from "../assets/about.jpg";
+import aboutPic from "../assets/ThiruVishagan.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -18,7 +18,7 @@ function About() {
       </motion.div>
       <div className="w-full lg:w-1/2">
         <div className="flex justify-center lg:justify-start">
-            <motion.p whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="my-2 max-wl-xl py-6">{ABOUT_TEXT}</motion.p>
+            <motion.p whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="my-2 mt-40 max-wl-xl py-6">{ABOUT_TEXT}</motion.p>
         </div>
       </div>
     </div>
